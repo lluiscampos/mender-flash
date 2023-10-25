@@ -35,6 +35,7 @@ public:
 		uint32_t blocksWritten_ {0};
 		uint32_t blocksOmitted_ {0};
 		uint64_t bytesWritten_ {0};
+		uint64_t bytesTotal_ {0};
 	};
 
 	const Statistics &GetStatistics() const {
